@@ -31,9 +31,10 @@ Luego, una vez tenemos acceso a la máquina realizamos una escalada de privilegi
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/242c9c2f-939e-43d8-9139-a948f23112c1)
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/b32041b4-5320-40e8-b6cf-05278f5614c6)
+  
 Hacemos clic en **Enter** para aplicarlo y salimos del vim.
 
-Hemos accedido como el usuario root.
+<ins>**Hemos accedido como el usuario root**</ins>.
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/185dcc4b-94c0-412f-a4d9-6d6885dc3444)
   
