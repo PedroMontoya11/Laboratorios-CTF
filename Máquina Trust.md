@@ -15,7 +15,9 @@ Vamos a intentar atacar mediante HTTP. Nos dirigimos al navegador y en el buscad
 Debido a que revisando el código fuente de la página y mediante el uso del comando ***ffuf*** para realizar fuzzing no detectamos nuevas páginas, vamos a emplear un comando similar llamado ***gobuster***, con el que obtendremos las páginas existentes en distintos formatos. En este caso, vamos a buscar aquellas que tengan extensión .html, .php, .sh y .py.
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/79bfb2df-5f5d-4ab5-b466-ad16acbd7007)
+  
 Hemos hallado  una página llamada *secret.php*, por lo que vamos a buscarla en el navegador para ver su contenido.
+
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/831e1cfa-eb51-49e5-962f-45b906479380)
 
 En base al contenido de esta página podemos pensar que el usuario del ssh sea el usuario mario. Por lo tanto, vamos a intentar descifrar la contraseña de dicho usuario para con el usuario y la contraseña poder acceder a la máquina vulnerable mediante SSH. En mi caso, yo tengo un script que comprueba que contraseña es válida para dicho usuario (para esto puedes hacer uso de un diccionario como el rockyou o uno personalizado, para tener más éxito a la hora de obtener la contraseña). Yo usaré un diccionario personalizado de las 200 contraseñas más utilizadas. Realizamos un ataque de fuerza bruta Hydra usando lo siguiente: **hydra -l mario -P passwords.txt ssh://172.17.0.2**.
