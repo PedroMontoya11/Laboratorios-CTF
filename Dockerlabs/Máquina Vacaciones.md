@@ -50,3 +50,16 @@ Finalmente ahora sí, realizamos la escalada de privilegios para acceder como el
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/03df04cc-e8a2-4333-8cd4-717b64c954e1)
 
+Miramos en [GTFOBins](https://gtfobins.github.io/) acerca del binario ***/usr/bin/ruby***.
+
+  ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/a570afa8-0483-4c31-8b97-4e5e7a506b3e)
+
+**sudo ruby -e 'exec "/bin/sh"'**
+
+  ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/472a307e-4ae4-476c-9a30-d79cfff2427b)
+
+Hemos logrado acceder como el usuario "root", por lo que tenemos todos los permisos en el sistema.
+
+Una vez finalizamos con la máquina de Dockerlabs presionamos **Ctrl+C** para eliminarla.
+
+  ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/d7b8f230-9ff3-4867-9563-2d5fa17ad09e)
