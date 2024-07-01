@@ -18,7 +18,7 @@ Estando dentro de la consola de Metasploit, tendremos que realizar la búsqueda 
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/a57e292a-da70-49a3-84de-3c14174395d6)
 
-Hemos encontrado un exploit que podemos utilizar, el cual se encarga de realizar un **backdoor** (puerta trasera).
+Hemos encontrado un exploit que podemos utilizar, el cual se encarga de realizar un **backdoor** (puerta trasera).<br>
 <ins>Un backdoor es un tipo de virus diseñado para permitir el acceso remoto de usuarios NO autorizados a un dispositivo</ins>.
 
 Usamos ese módulo con **use 0**.
@@ -37,7 +37,7 @@ También podemos añadirle un payload al exploit, por lo que buscamos los payloa
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/2d550159-560a-4f03-ba80-6dd1dff02f97)
 
-Tenemos únicamente el payload con nombre *payload/cmd/unix/interact*. Lo seleccionamos escribiendo ***set payload*** [***número del #***] --> **set payload 0**
+Tenemos únicamente el payload con nombre *payload/cmd/unix/interact*.<br>Lo seleccionamos escribiendo ***set payload*** [***número del #***] --> **set payload 0**
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/c5ff588d-9191-4548-8a7d-6ccddb880604)
 
