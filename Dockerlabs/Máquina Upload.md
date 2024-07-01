@@ -58,6 +58,6 @@ Al hacer un **sudo -l** vemos que el usuario root no requiere de contraseña par
 
   Hemos accedido como el usuario "root" de manera exitosa.
 
-Una vez finalizamos con la máquina de Dockerlabs presionamos Ctrl+C para eliminarla.
+Una vez finalizamos con la máquina de Dockerlabs presionamos **Ctrl+C** para eliminarla.
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/9b26fe67-8cdd-4807-81c9-1877514cd0e6)
