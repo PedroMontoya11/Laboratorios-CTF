@@ -43,6 +43,6 @@ Otra manera de realizar esto mismo es escribiendo **sudo -u root /usr/bin/vim  -
 
 <ins>**Igualmente logramos acceder como root**</ins>.
 
-Una vez finalizamos con la máquina de Dockerlabs presionamos Ctrl+C para eliminarla.
+Una vez finalizamos con la máquina de Dockerlabs presionamos **Ctrl+C** para eliminarla.
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/2fbf1255-9593-4207-8cb4-93c8a1ffe3ba)
