@@ -1,4 +1,4 @@
-Desplegamos la máquina vulnerable poniendo en la terminal la línea de comandos bash auto_deploy.sh move.tar en la carpeta donde se encuentre el contenido extraído del zip.<br>
+Desplegamos la máquina vulnerable poniendo en la terminal la línea de comandos **bash auto_deploy.sh move.tar** en la carpeta donde se encuentre el contenido extraído del zip.<br>
 <ins>La dirección IP de la máquina a vulnerar siempre es la 172.17.0.2</ins>.
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/43a31721-b0fa-4214-aa9f-3ecd59df53d2)
