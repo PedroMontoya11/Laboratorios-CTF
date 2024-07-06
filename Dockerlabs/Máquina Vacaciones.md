@@ -41,7 +41,7 @@ Como no somos el usuario "root" tendremos que realizar una escalada de privilegi
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/c782bfcb-de29-45b0-8c6f-b25b49f84fc2)
 
-Gracias Juan por darme tu contraseña, eres un crack…Seguramente el usuario "juan" sea un usuario del grupo sudo, permitiéndonos realizar la escalada de privilegios más fácilmente.
+Gracias Juan por darme tu contraseña, eres un crack…Seguramente el usuario "juan" sea un usuario del grupo sudo, permitiéndonos realizar la escalada de privilegios de manera más sencilla.
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/86fbabd8-cb71-4e34-a9a9-1c73714fcb51)
 
