@@ -23,8 +23,7 @@ Probamos de primeras con el usuario "juan":
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/92a3dee4-4fa0-4377-a0f0-364bf69d300c)
 
-No hemos obtenido nada, probamos con el usuario "root":
- podido obtener las claves del usuario root para conectarnos por SSH, por lo que la última posibilidad que tenemos es intentar conectarnos con el usuario "camilo" y desde dentro del sistema realizar una escalada de privilegios:
+No hemos obtenido nada, probamos con el usuario "root" y tampoco hemos podido obtener las claves del usuario root para conectarnos por SSH, por lo que la última posibilidad que tenemos es intentar conectarnos con el usuario "camilo" y desde dentro del sistema realizar una escalada de privilegios:
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/8709a19d-7025-4331-a31e-0b91da9dd528)
 
