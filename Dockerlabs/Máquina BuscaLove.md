@@ -7,6 +7,8 @@ Ahora, realizamos un escaneo de puertos de la máquina para revisar los puertos 
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/c4a2e60f-03ee-41b4-9a91-576f72c5b1e2)
 
+Podemos ver que se encuentra abierto el puerto ***22*** y el puerto ***80***, correspondientes al servicio ***SSH*** y ***HTTP***. 
+
 Vamos a obtener los subdirectorios existentes en la página web para conseguir visualizar otras páginas que puedan darnos más información.
 Debido a que revisando el código fuente de la página y mediante el uso del comando ***ffuf*** para realizar fuzzing no detectamos nuevas páginas, vamos a emplear un comando similar llamado ***gobuster***, con el que obtendremos las páginas existentes en distintos formatos. En este caso, vamos a buscar aquellas que tengan extensión .*html*, .*php*, .*sh* y .*py*.
 
