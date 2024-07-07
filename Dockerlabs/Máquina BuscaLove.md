@@ -22,7 +22,7 @@ Revisamos el código fuente de la página en búsqueda de información:
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/df411765-5e7c-4567-8ea8-1f2e89b66a24)
 
-Esta página web cuenta con una vulnerabilidad de tipo **LFI** (*Local File Inclusion*), el cual consiste en que el usuario es capaz de acceder y visualizar desde la página web al contenido de archivos locales del servidor, por lo que si nosotros mediante **Path Traversal** escribimos en el buscador detrás de la ruta que tenemos la cadena de texto "***?love=../../../../../../etc/passwd***", podremos visualizar el contenido del fichero passwd, el cual se utiliza en Linux para guardar la información principal de cada cuenta (nombre de usuario, grupo, ID de usuario, ID de grupo, etc).
+Esta página web cuenta con una vulnerabilidad de tipo **LFI** (*Local File Inclusion*), el cual consiste en que el usuario es capaz de acceder y visualizar desde la página web el contenido de archivos locales del servidor, por lo que si nosotros mediante **Path Traversal** escribimos en el buscador detrás de la ruta que tenemos la cadena de texto "***?love=../../../../../../etc/passwd***", podremos visualizar el contenido del fichero passwd, el cual se utiliza en Linux para guardar la información principal de cada cuenta (nombre de usuario, grupo, ID de usuario, ID de grupo, etc).
 
 Esto es lo que se nos muestra del archivo localizado en /etc/passwd:
 
