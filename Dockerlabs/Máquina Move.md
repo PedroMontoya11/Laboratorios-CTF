@@ -7,7 +7,7 @@ Ahora, realizamos un escaneo de puertos de la máquina para revisar los puertos 
 
   ![image](https://github.com/PedroMontoya11/Laboratorios-CTF/assets/145665312/bc1afc2c-d156-482a-bf66-f49e63a720e1)
 
-Nos encontramos con una serie de puertos abiertos, como el puerto ***21***, ***22***, ***80*** y ***3000***, correspondientes a los protocolos ***FTP***, ***SSH***, ***HTTP*** y el ***puerto de React*** respectivamente.
+Nos encontramos con una serie de puertos abiertos, como los puertos ***21***, ***22***, ***80*** y ***3000***, correspondientes a los protocolos ***FTP***, ***SSH***, ***HTTP*** y el ***puerto de React***, respectivamente.
 
 Vamos a obtener los subdirectorios existentes en la página web para conseguir visualizar otras páginas que puedan darnos más información.
 Debido a que revisando el código fuente de la página y mediante el uso del comando ***ffuf*** para realizar fuzzing no detectamos nuevas páginas, vamos a emplear un comando similar llamado ***gobuster***, con el que obtendremos las páginas existentes en distintos formatos. En este caso, vamos a buscar aquellas que tengan extensión .*html*, .*php*, .*py* y .*txt*.
