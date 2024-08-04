@@ -51,3 +51,7 @@ Miramos en [GTFOBins](https://gtfobins.github.io/) acerca del binario ***/usr/bi
   ![image](https://github.com/user-attachments/assets/6e4a22d1-b3dc-40f7-97ff-aa6f616a2d0c)
 
 Hemos realizado la escalada de privilegios de manera exitosa, ya que ahora somos el usuario root y contamos con todos los privilegios existentes en el sistema.
+
+Una vez finalizamos con la máquina de Dockerlabs presionamos **Ctrl+C** para eliminarla.
+
+  ![image](https://github.com/user-attachments/assets/33c8409d-e82a-4c4d-9a96-0fde3120a3e7)
