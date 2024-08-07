@@ -7,7 +7,7 @@ Ahora, realizamos un escaneo de puertos de la máquina para revisar los puertos 
 
   ![image](https://github.com/user-attachments/assets/96315beb-f191-4e64-9908-2189a63b329d)
 
-Podemos ver que se encuentran abiertos los puertos ***80***, ***3000*** y ***5000*** correspondiente al servicio ***HTTP***, ***Node.js*** y ***SSH*** (en este caso, ya que por defecto es el puerto 22).
+Podemos ver que se encuentran abiertos los puertos ***80***, ***3000*** y ***5000*** correspondientes a los servicios ***HTTP***, ***Node.js*** y ***SSH*** (en este caso, ya que por defecto es el puerto 22).
 
 Nos dirigimos al navegador y escribimos la dirección URL http://172.17.0.2:80:
 
