@@ -94,3 +94,15 @@ Estamos dentro del sistema.
 Verificamos si hay algún binario que podamos aprovechar en el SUID con el comando **find / -perm -4000 2>/dev/null**.
 
   ![image](https://github.com/user-attachments/assets/a85cb7bc-3fe6-4453-9453-96cba8ae2cb3)
+
+Buscamos en GTFOBins acerca del binario ***/usr/bin/find***.
+
+  ![image](https://github.com/user-attachments/assets/cfa052be-916b-4435-adc6-57c157a643df)
+
+**find . -exec /bin/sh -p \; -quit**
+
+  ![image](https://github.com/user-attachments/assets/d1b219cf-861f-47ea-b38b-b1acef847768)
+
+Finalmente, hemos conseguido hacer una escalada de privilegios, pudiendo acceder al sistema como el usuario root.
+
+Una vez finalizamos con la máquina de Dockerlabs presionamos **Ctrl+C** para eliminarla.
