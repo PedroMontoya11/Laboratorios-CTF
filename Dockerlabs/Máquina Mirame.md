@@ -106,3 +106,5 @@ Buscamos en GTFOBins acerca del binario ***/usr/bin/find***.
 Finalmente, hemos conseguido hacer una escalada de privilegios, pudiendo acceder al sistema como el usuario root.
 
 Una vez finalizamos con la máquina de Dockerlabs presionamos **Ctrl+C** para eliminarla.
+
+  ![image](https://github.com/user-attachments/assets/77bfb789-51bc-4ffb-a6e6-80cb46b254be)
