@@ -7,7 +7,7 @@ Ahora, realizamos un escaneo de puertos de la máquina para revisar los puertos 
 
   ![image](https://github.com/user-attachments/assets/1848f869-e579-4b05-a408-f0016fda72f0)
 
-Podemos ver que se encuentran abiertos los puertos ***80*** y ***443***, correspondientes a los servicios ***HTTP*** y ***MySQL*** (en este caso, ya que el puerto 443 corresponde al servicio HTTPS).
+Podemos ver que se encuentran abiertos los puertos ***80*** y ***443***, correspondientes a los servicios ***HTTP*** y ***HTTPS***, respectivamente.
 
 Nos dirigimos al navegador y en el buscador ponemos http://172.17.0.2:80.
 
